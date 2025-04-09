@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Debug/cef_sandbox.lib filter=lfs diff=lfs merge=lfs -text
+Debug/libcef.dll filter=lfs diff=lfs merge=lfs -text
+Release/libcef.dll filter=lfs diff=lfs merge=lfs -text
